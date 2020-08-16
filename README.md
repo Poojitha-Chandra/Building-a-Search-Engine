@@ -12,3 +12,12 @@ Ok then,now assuming that you can import Beautiful Soup!For suppose we have a ta
 * Web Crawling
 * Index building
 * Searching
+# <h3>Web Crawler</h3>
+A `Web Crawler` is a computer program that browses the World Wide Web in a methodical, automated manner.These are mainly used to create a copy of all the visited pages for later processing by a ***Search Engine*** that will index the downloaded pages to provide fast searches.
+* Retrieve a page
+* Look through the page for links
+* Add the links to a list of "to be retrieved" sites
+* Repeat...
+# <h3>Search Indexing</h3>
+Search engine indexing **collects,parses** and **stores** data to facilitate fast and accurate information retrieval.The purpose of *storing the index* is to `optimize speed and performance` in finding relevant documents for a search query.Without an index, the search enginewould scan every document in corpus,which would require considerable time and computing power.
+# <h2>Overview</h2>
