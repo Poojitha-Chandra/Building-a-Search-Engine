@@ -21,3 +21,4 @@ A `Web Crawler` is a computer program that browses the World Wide Web in a metho
 # <h3>Search Indexing</h3>
 Search engine indexing **collects,parses** and **stores** data to facilitate fast and accurate information retrieval.The purpose of *storing the index* is to `optimize speed and performance` in finding relevant documents for a search query.Without an index, the search enginewould scan every document in corpus,which would require considerable time and computing power.
 # <h2>Overview</h2>
+The way it works is that actually only `spiders a single webpage`.So, we are going to runfive chunks of code.
