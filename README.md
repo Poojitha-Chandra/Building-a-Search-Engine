@@ -28,3 +28,5 @@ The way it works is that actually only `spiders a single webpage`.So, we are goi
 Now,comes the funny part of the entire chunks that is *Visualisation*.**spdump.py** just runs a SQL query by connecting to our database,creating a cursor,selecting count and justs shows number of links.
 
 Upnext,the visualizing process includes **spjson.py** that looks all the data in the database, produces a Java Script file namely **spider.js** and finally fed into visualization using **force.html**.*d3.js* is a great visualization library.
+
+![visualization](Screenshot(51))
