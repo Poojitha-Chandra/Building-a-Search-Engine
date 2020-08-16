@@ -22,3 +22,9 @@ A `Web Crawler` is a computer program that browses the World Wide Web in a metho
 Search engine indexing **collects,parses** and **stores** data to facilitate fast and accurate information retrieval.The purpose of *storing the index* is to `optimize speed and performance` in finding relevant documents for a search query.Without an index, the search enginewould scan every document in corpus,which would require considerable time and computing power.
 # <h2>Overview</h2>
 The way it works is that actually only `spiders a single webpage`.So, we are going to run five chunks of code.The basic spidering code is in **spider.py**.This part includes getting some stuff from the web,in this case webpages.Having a database **spider.sqlite** to capture the stuff.The spidering code parses webpages using *Beautiful Soup* and adds stuff to the database.
+
+**spreset.py** just resets the page rank and **sprank.py** runs as many iterations of page rank.
+
+Now,comes the funny part of the entire chunks that is *Visualisation*.**spdump.py** just runs a SQL query by connecting to our database,creating a cursor,selecting count and justs shows number of links.
+
+Upnext,the visualizing process includes **spjson.py** that looks all the data in the database, produces a Java Script file namely **spider.js** and finally fed into visualization using **force.html**.*d3.js* is a great visualization library.
